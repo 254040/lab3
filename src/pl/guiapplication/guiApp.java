@@ -73,7 +73,7 @@ public class guiApp implements ActionListener {
 
     private static final Boolean Login(String user, char[] password) throws IOException {
 
-        Path inputPath = Paths.get("D:\\JetBrains\\IDEA Projects\\lab3\\src\\usersData.txt");
+        Path inputPath = Paths.get("usersData.txt");
         List<String> lines;
         lines = Files.readAllLines(inputPath, Charset.forName("UTF-8"));
 
